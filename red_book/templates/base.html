@@ -1,0 +1,20 @@
+
+    <table>
+        <tr>
+            <td>Название</td>
+            <td>Латинское название</td>
+            <td>Белорусское название</td>
+            <td>Приоритет</td>
+        </tr>
+        {% for sinichka in sinichky %}
+        <tr>
+            <td>{{sinichka.name}}</td>
+            <td>{{sinichka.name_L}}</td>
+            <td>{{sinichka.name_B}}</td>
+            <td>{{sinichka.priority}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
+
